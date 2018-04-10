@@ -46,10 +46,10 @@ page '/*.txt', layout: false
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+end
 
 activate :gh_pages do |gh_pages|
   gh_pages.remote = 'git@github.com:tparesi/tparesi.github.io.git'
