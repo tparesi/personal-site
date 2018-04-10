@@ -6,11 +6,12 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title || "tparesi" %></title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
   </head>
-  <body>
+  <body class="background-image">
     <%= yield %>
   </body>
 </html>
