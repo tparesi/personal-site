@@ -6,7 +6,7 @@ const criticalResources = [
 ],
 otherResources = [],
 version = 'v1::',
-staticCacheName = Date.now();
+staticCacheName = 'static';
 
 self.addEventListener('install', event => {
   console.log('Install event');

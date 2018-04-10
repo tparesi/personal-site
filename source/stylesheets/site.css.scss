@@ -19,10 +19,12 @@ html, body {
   margin-left: -250px; /* Negative half of width. */
 
   .welcome {
+    font-size: 24px;
     text-align: center;
-    h1 {
-      font-weight: 400;
-      font-family: monospace;
-    }
+    font-weight: 400;
+    font-family: monospace;
+    width: 200px;
+    margin: auto;
+    cursor: pointer;
   }
 }
